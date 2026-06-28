@@ -1,0 +1,26 @@
+# Environment & secrets
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FAISS vector store
+vectorstore/
+
+# Temp files
+*.tmp
+tmp/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

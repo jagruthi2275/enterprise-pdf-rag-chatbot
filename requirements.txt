@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+faiss-cpu
+huggingface_hub
+pypdf
+python-dotenv
+tiktoken
+numpy

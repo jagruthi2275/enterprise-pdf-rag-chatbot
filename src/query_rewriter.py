@@ -33,7 +33,7 @@ class QueryRewriter:
         if not api_key:
             raise EnvironmentError("GROQ_API_KEY environment variable is not set.")
         self.llm = ChatGroq(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             api_key=api_key,
             temperature=0.0,
             max_tokens=128,

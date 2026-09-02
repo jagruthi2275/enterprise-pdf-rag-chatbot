@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 
 logger = logging.getLogger(__name__)
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
 
 
 class LLMClient:
